@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html,
+body,
+#root {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+#root {
+  widows: 76ch;
+}
+.picker {
+  position: absolute !important;
+  top: 74px;
+  left: 70px;
+  width: 90px !important;
+  height: 90px !important;
+}
